@@ -13,5 +13,6 @@ public class HelloIDEA extends JFrame{
 	    System.out.println("hello!");// write your code here
         HelloIDEA appObj = new HelloIDEA();
         appObj.setVisible(true);
+        System.out.println("Add a new string!");// write your code here
     }
 }
