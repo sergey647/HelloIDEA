@@ -10,7 +10,6 @@ public class HelloIDEA extends JFrame{
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
     public static void main(String[] args) {
-	    System.out.println("hello!");// write your code here
         HelloIDEA appObj = new HelloIDEA();
         appObj.setVisible(true);
         System.out.println("Add a new string!");// write your code here
