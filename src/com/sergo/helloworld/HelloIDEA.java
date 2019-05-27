@@ -1,6 +1,7 @@
 package com.sergo.helloworld;
 
 import javax.swing.JFrame;
+import java.awt.*;
 
 public class HelloIDEA extends JFrame{
 
@@ -14,5 +15,7 @@ public class HelloIDEA extends JFrame{
         appObj.setVisible(true);
         System.out.println("Add a new string!");// write your code here
         System.out.println("And one more!");// write your code here
+        DrawRectangle rect = new DrawRectangle(10, 20, 30, 40);
+        appObj.add(rect);
     }
 }
